@@ -1,7 +1,7 @@
 import Globe from 'react-globe.gl';
 import hexRgb from 'hex-rgb';
 
-import globeImage from '../assets/earth-dark.jpg';
+import globeImage from '../assets/hercynia/h5-min.png';
 
 const Page = () => {
   const myData = [
