@@ -13,7 +13,7 @@ const locationCities = {
         "lng": -13,
         "altitude": 0,
         "color": "#00912c",
-        "size": 14
+        "size": 20
     },
     "MycolFields": {
         "name": "Mycol Fields",
@@ -29,7 +29,7 @@ const locationCities = {
         "lng": -4,
         "altitude": 0,
         "color": "#47a9ff",
-        "size": 14
+        "size": 20
     },
     "Merricktown": {
         "name": "Merricktown",
@@ -37,7 +37,7 @@ const locationCities = {
         "lng": -1.5,
         "altitude": 0,
         "color": "#969696",
-        "size": 8
+        "size": 12
     },
     "LiuMaize": {
         "name": "Liu Maize",
@@ -45,7 +45,7 @@ const locationCities = {
         "lng": -2.5,
         "altitude": 0,
         "color": "#969696",
-        "size": 8
+        "size": 12
     },
     "Laguna": {
         "name": "Laguna",
@@ -53,7 +53,7 @@ const locationCities = {
         "lng": 35,
         "altitude": 0,
         "color": "#05ffb4",
-        "size": 10
+        "size": 15
     },
     "BellaCosta": {
         "name": "Bella Costa",
@@ -61,7 +61,7 @@ const locationCities = {
         "lng": 56,
         "altitude": 0,
         "color": "#05ffb4",
-        "size": 16
+        "size": 15
     },
     "BemHonore": {
         "name": "Bem Honore",
