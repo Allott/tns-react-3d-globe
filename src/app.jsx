@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import Finished from './routes/finished';
 import Basic from './routes/basic';
 
 import NotFound from './routes/not-found';

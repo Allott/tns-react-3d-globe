@@ -1,112 +1,32 @@
 import Globe from 'react-globe.gl';
+import { useRef } from 'react';
+
 import globeImage from '../assets/hercynia/h5-min.png';
 import hexRgb from 'hex-rgb';
+import { locationCities, locationCitiesArray, ringsData } from '../data/hercyniaData';
 
 const Page = () => {
+  const globeRef = useRef(null);
 
-  const arcs = [
-    {
-      startLat: 17,
-      startLng: 56,
-      endLat: 1,
-      endLng: 35,
-      color: ['#00ff33', '#ff0000'],
-      stroke: 1,
-      gap: 0.02,
-      dash: 0.02,
-      scale: 0.3,
-      time: 4000,
-    },
-  ];
+  const arcs = [];
 
-  const rings = [
-    {
-      lat: 90,
-      lng: 0,
-      radius: 20,
-      color: '#ff0051',
-      speed: 1,
-      repeat: 4000,
-    },
-  ];
+  const places = locationCitiesArray;
 
-  const places = [
-    {
-      city: 'Daylight',
-      lat: 33.5,
-      lng: -1.75,
-      altitude: 0,
-      color: '#00912c',
-    },
-    {
-      city: 'Hivehome',
-      lat: 32.5,
-      lng: -13,
-      altitude: 0,
-      color: '#00912c',
-    },
-    {
-      city: 'Mycol Fields',
-      lat: 22,
-      lng: -14,
-      altitude: 0,
-      color: '#00912c',
-    },
-    {
-      city: 'Evergreen',
-      lat: 28,
-      lng: -4,
-      altitude: 0,
-      color: '#47a9ff',
-    },
-    {
-      city: 'Merricktown',
-      lat: 27.5,
-      lng: -1.5,
-      altitude: 0,
-      color: '#969696',
-    },
-    {
-      city: 'Liu Maize',
-      lat: 26,
-      lng: -2.5,
-      altitude: 0,
-      color: '#969696',
-    },
-    {
-      city: 'Laguna',
-      lat: 1,
-      lng: 35,
-      altitude: 0,
-      color: '#05ffb4',
-    },
-    {
-      city: 'Bella Costa',
-      lat: 17,
-      lng: 56,
-      altitude: 0,
-      color: '#05ffb4',
-    },
-    {
-      city: 'Bem Honore',
-      lat: 33,
-      lng: 107,
-      altitude: 0,
-      color: '#823ba8',
-    },
-    {
-      city: 'ST. Tellus',
-      lat: -45,
-      lng: 121,
-      altitude: 0,
-      color: '#823ba8',
-    },
-  ];
+  const globeReady = () => {
+    if (globeRef.current) {
+      globeRef.current.pointOfView({
+        ...locationCities.Evergreen,
+        altitude: 1,
+      },4000);
+    }
+  };
 
   return (
     <div className='cursor-move'>
       <Globe
         globeImageUrl={globeImage}
+        ref={globeRef}
+        onGlobeReady={globeReady}
 
         htmlElementsData={places}
         htmlAltitude='altitude'
@@ -124,7 +44,7 @@ const Page = () => {
           return element;
         }}
 
-        ringsData={rings}
+        ringsData={ringsData}
         ringMaxRadius='radius'
         ringColor={(ring) => (time) => {
           const { red, green, blue } = hexRgb(ring.color);
