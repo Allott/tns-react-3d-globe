@@ -1,73 +1,83 @@
 const locationCities = {
     "Daylight": {
-        "city": "Daylight",
+        "name": "Daylight",
         "lat": 33.5,
         "lng": -1.75,
         "altitude": 0,
-        "color": "#00912c"
+        "color": "#00912c",
+        "size": 14
     },
     "Hivehome": {
-        "city": "Hivehome",
+        "name": "Hivehome",
         "lat": 32.5,
         "lng": -13,
         "altitude": 0,
-        "color": "#00912c"
+        "color": "#00912c",
+        "size": 14
     },
     "MycolFields": {
-        "city": "Mycol Fields",
+        "name": "Mycol Fields",
         "lat": 22,
         "lng": -14,
         "altitude": 0,
-        "color": "#00912c"
+        "color": "#00912c",
+        "size": 20
     },
     "Evergreen": {
-        "city": "Evergreen",
+        "name": "Evergreen",
         "lat": 28,
         "lng": -4,
         "altitude": 0,
-        "color": "#47a9ff"
+        "color": "#47a9ff",
+        "size": 14
     },
     "Merricktown": {
-        "city": "Merricktown",
+        "name": "Merricktown",
         "lat": 27.5,
         "lng": -1.5,
         "altitude": 0,
-        "color": "#969696"
+        "color": "#969696",
+        "size": 8
     },
     "LiuMaize": {
-        "city": "Liu Maize",
+        "name": "Liu Maize",
         "lat": 26,
         "lng": -2.5,
         "altitude": 0,
-        "color": "#969696"
+        "color": "#969696",
+        "size": 8
     },
     "Laguna": {
-        "city": "Laguna",
+        "name": "Laguna",
         "lat": 1,
         "lng": 35,
         "altitude": 0,
-        "color": "#05ffb4"
+        "color": "#05ffb4",
+        "size": 10
     },
     "BellaCosta": {
-        "city": "Bella Costa",
+        "name": "Bella Costa",
         "lat": 17,
         "lng": 56,
         "altitude": 0,
-        "color": "#05ffb4"
+        "color": "#05ffb4",
+        "size": 16
     },
     "BemHonore": {
-        "city": "Bem Honore",
+        "name": "Bem Honore",
         "lat": 33,
         "lng": 107,
         "altitude": 0,
-        "color": "#823ba8"
+        "color": "#823ba8",
+        "size": 20
     },
     "ST.Tellus": {
-        "city": "ST. Tellus",
+        "name": "ST. Tellus",
         "lat": -45,
         "lng": 121,
         "altitude": 0,
-        "color": "#823ba8"
+        "color": "#823ba8",
+        "size": 20
     }
 }
 
