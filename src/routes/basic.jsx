@@ -1,6 +1,6 @@
 import { locationCities, locationCitiesArray, ringsData } from '../data/hercyniaData';
 
-import HercyniaGlobe from '../components/hercyniaGlobe';
+import HercyniaGlobe from '../components/HercyniaGlobe';
 
 const Page = () => {
   const arcs = [];
