@@ -4,9 +4,11 @@ import { useRef, useState } from 'react';
 import imageDefault from '../assets/hercynia/h5-min.png';
 import imagePreMF from '../assets/hercynia/h5-min-pre.png';
 import imageWinter from '../assets/hercynia/h5-min-winter.png';
+import topology from '../assets/hercynia/topology.png';
 
 import hexRgb from 'hex-rgb';
 import { ringsData } from '../data/hercyniaData';
+import { getIcon } from '../data/getIcon';
 
 const HercyniaGlobe = ({
     locationsData = [],
@@ -44,20 +46,15 @@ const globeImage = isWinterSeason ? imageWinter : isMountainFall ? imageDefault 
             globeImageUrl={globeImage}
             ref={globeRef}
             onGlobeReady={globeReady}
+            bumpImageUrl={topology}
 
             htmlElementsData={locationsData}
             htmlAltitude='altitude'
             htmlElement={(data) => {
-            const { name, color, size } = data;
+            const { name, color, size, icon } = data;
             const element = document.createElement('div');
             element.style.color = color;
-            element.innerHTML = `
-            <div>
-                <svg viewBox="0 0 24 24" style="width:${size*2}px;margin:0 auto;">
-                <path fill="currentColor" fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
-                </svg>
-                <strong style="font-size:${size}px;text-align:center">${name}</strong>
-            </div>`;
+            element.innerHTML = getIcon(name, color, size, icon);
 
             element.style['pointer-events'] = 'auto';
             element.style.cursor = 'pointer';

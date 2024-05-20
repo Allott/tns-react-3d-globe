@@ -5,7 +5,8 @@ const locationCities = {
         "lng": -1.75,
         "altitude": 0,
         "color": "#00912c",
-        "size": 14
+        "size": 14,
+        "icon": "city"
     },
     "Hivehome": {
         "name": "Hivehome",
@@ -13,7 +14,8 @@ const locationCities = {
         "lng": -13,
         "altitude": 0,
         "color": "#00912c",
-        "size": 20
+        "size": 20,
+        "icon": "city"
     },
     "MycolFields": {
         "name": "Mycol Fields",
@@ -21,7 +23,8 @@ const locationCities = {
         "lng": -14,
         "altitude": 0,
         "color": "#00912c",
-        "size": 20
+        "size": 20,
+        "icon": "city"
     },
     "Evergreen": {
         "name": "Evergreen",
@@ -29,7 +32,8 @@ const locationCities = {
         "lng": -4,
         "altitude": 0,
         "color": "#47a9ff",
-        "size": 20
+        "size": 20,
+        "icon": "city"
     },
     "Merricktown": {
         "name": "Merricktown",
@@ -37,7 +41,8 @@ const locationCities = {
         "lng": -1.5,
         "altitude": 0,
         "color": "#969696",
-        "size": 12
+        "size": 12,
+        "icon": "town"
     },
     "LiuMaize": {
         "name": "Liu Maize",
@@ -45,7 +50,8 @@ const locationCities = {
         "lng": -2.5,
         "altitude": 0,
         "color": "#969696",
-        "size": 12
+        "size": 12,
+        "icon": "town"
     },
     "Laguna": {
         "name": "Laguna",
@@ -53,7 +59,8 @@ const locationCities = {
         "lng": 35,
         "altitude": 0,
         "color": "#05ffb4",
-        "size": 15
+        "size": 15,
+        "icon": "city"
     },
     "BellaCosta": {
         "name": "Bella Costa",
@@ -61,7 +68,8 @@ const locationCities = {
         "lng": 56,
         "altitude": 0,
         "color": "#05ffb4",
-        "size": 15
+        "size": 15,
+        "icon": "city"
     },
     "BemHonore": {
         "name": "Bem Honore",
@@ -69,7 +77,8 @@ const locationCities = {
         "lng": 107,
         "altitude": 0,
         "color": "#823ba8",
-        "size": 20
+        "size": 20,
+        "icon": "city"
     },
     "ST.Tellus": {
         "name": "ST. Tellus",
@@ -77,7 +86,8 @@ const locationCities = {
         "lng": 121,
         "altitude": 0,
         "color": "#823ba8",
-        "size": 20
+        "size": 20,
+        "icon": "city"
     }
 }
 
