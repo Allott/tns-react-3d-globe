@@ -1,4 +1,4 @@
-const locationCities = {
+const locations = {
     "Daylight": {
         "name": "Daylight",
         "lat": 33.5,
@@ -28,28 +28,28 @@ const locationCities = {
     },
     "Evergreen": {
         "name": "Evergreen",
-        "lat": 28,
+        "lat": 29,
         "lng": -4,
-        "altitude": 0,
+        "altitude": 0.001,
         "color": "#47a9ff",
         "size": 20,
         "icon": "city"
     },
     "Merricktown": {
         "name": "Merricktown",
-        "lat": 27.5,
-        "lng": -1.5,
+        "lat": 28.2,
+        "lng": -2,
         "altitude": 0,
-        "color": "#969696",
+        "color": "#9c9c9c",
         "size": 12,
         "icon": "town"
     },
     "LiuMaize": {
         "name": "Liu Maize",
-        "lat": 26,
+        "lat": 27,
         "lng": -2.5,
         "altitude": 0,
-        "color": "#969696",
+        "color": "#9c9c9c",
         "size": 12,
         "icon": "town"
     },
@@ -88,7 +88,34 @@ const locationCities = {
         "color": "#823ba8",
         "size": 20,
         "icon": "city"
-    }
+    },
+    "Tower1": {
+        "name": "Tower 1",
+        "lat": 28,
+        "lng": -3.6,
+        "altitude": 0,
+        "color": "#969696",
+        "size": 10,
+        "icon": "tower"
+    },
+    "Tower2": {
+        "name": "Tower 2",
+        "lat": 31,
+        "lng": -5,
+        "altitude": 0,
+        "color": "#969696",
+        "size": 10,
+        "icon": "tower"
+    },
+    "Tower3": {
+        "name": "Tower 3",
+        "lat": 28.7,
+        "lng": 1.5,
+        "altitude": 0,
+        "color": "#969696",
+        "size": 10,
+        "icon": "tower"
+    },
 }
 
 const ringsData = [
@@ -102,7 +129,7 @@ const ringsData = [
     },
   ];
 
-const locationCitiesArray = Object.values(locationCities);
+const locationsArray = Object.values(locations);
 
 
-export { locationCities, locationCitiesArray, ringsData };
+export { locations, locationsArray, ringsData };

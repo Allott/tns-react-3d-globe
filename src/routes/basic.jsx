@@ -1,17 +1,17 @@
-import { locationCities, locationCitiesArray, ringsData } from '../data/hercyniaData';
+import { locations, locationsArray, ringsData } from '../data/hercyniaData';
 
 import HercyniaGlobe from '../components/HercyniaGlobe';
 
 const Page = () => {
   const arcs = [];
-  const places = locationCitiesArray;
+  const places = locationsArray;
 
   return (
     <div>
       <HercyniaGlobe
         locationsData={places}
         arcsData={arcs}
-        startLocation={locationCities.Evergreen}
+        startLocation={locations.Evergreen}
         isWinterSeason={false}
         isMountainFall={true}
       />
