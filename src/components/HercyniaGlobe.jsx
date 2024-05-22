@@ -5,6 +5,7 @@ import imageDefault from '../assets/hercynia/h5-min.png';
 import imagePreMF from '../assets/hercynia/h5-min-pre.png';
 import imageWinter from '../assets/hercynia/h5-min-winter.png';
 import topology from '../assets/hercynia/topology.png';
+import InfoBox from './InfoBox';
 
 import hexRgb from 'hex-rgb';
 import { ringsData } from '../data/hercyniaData';
@@ -21,7 +22,6 @@ const HercyniaGlobe = ({
     startLocation
 }) => {
 const [displayData, setDisplayData] = useState();
-console.log(displayData);
 const globeRef = useRef(null);
 
 const goTo = (place, ms=1000) => {
@@ -86,9 +86,7 @@ const globeImage = isWinterSeason ? imageWinter : isMountainFall ? imageDefault 
         />
     </div>
     {displayData && (
-        <div className='fixed bg-white z-40 top-0 right-0'>
-            {displayData.name}
-        </div>
+        <InfoBox setDisplayData={setDisplayData} {...displayData} />
     )}
     </div>
   );
