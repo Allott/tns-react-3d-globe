@@ -10,6 +10,8 @@ import hexRgb from 'hex-rgb';
 import { ringsData } from '../data/hercyniaData';
 import { getIcon } from '../data/getIcon';
 
+const zoomMod = 0.03;
+
 const HercyniaGlobe = ({
     locationsData = [],
     arcsData = [],
@@ -25,7 +27,7 @@ const globeRef = useRef(null);
 const goTo = (place, ms=1000) => {
     globeRef.current.pointOfView({
     ...place,
-    altitude: 0.7,
+    altitude: place.size * zoomMod,
   },ms)
 };
 

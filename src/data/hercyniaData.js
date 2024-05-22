@@ -5,7 +5,7 @@ const locations = {
         "lng": -1.75,
         "altitude": 0,
         "color": "#00912c",
-        "size": 14,
+        "size": 18,
         "icon": "city"
     },
     "Hivehome": {
@@ -14,7 +14,7 @@ const locations = {
         "lng": -13,
         "altitude": 0,
         "color": "#00912c",
-        "size": 20,
+        "size": 24,
         "icon": "city"
     },
     "MycolFields": {
@@ -23,7 +23,7 @@ const locations = {
         "lng": -14,
         "altitude": 0,
         "color": "#00912c",
-        "size": 20,
+        "size": 24,
         "icon": "city"
     },
     "Evergreen": {
@@ -32,7 +32,7 @@ const locations = {
         "lng": -4,
         "altitude": 0.001,
         "color": "#47a9ff",
-        "size": 20,
+        "size": 16,
         "icon": "city"
     },
     "Merricktown": {
@@ -40,7 +40,7 @@ const locations = {
         "lat": 28.2,
         "lng": -2,
         "altitude": 0,
-        "color": "#9c9c9c",
+        "color": "#575757",
         "size": 12,
         "icon": "town"
     },
@@ -49,7 +49,7 @@ const locations = {
         "lat": 27,
         "lng": -2.5,
         "altitude": 0,
-        "color": "#9c9c9c",
+        "color": "#575757",
         "size": 12,
         "icon": "town"
     },
@@ -59,7 +59,7 @@ const locations = {
         "lng": 35,
         "altitude": 0,
         "color": "#05ffb4",
-        "size": 15,
+        "size": 24,
         "icon": "city"
     },
     "BellaCosta": {
@@ -68,7 +68,7 @@ const locations = {
         "lng": 56,
         "altitude": 0,
         "color": "#05ffb4",
-        "size": 15,
+        "size": 26,
         "icon": "city"
     },
     "BemHonore": {
@@ -77,7 +77,7 @@ const locations = {
         "lng": 107,
         "altitude": 0,
         "color": "#823ba8",
-        "size": 20,
+        "size": 30,
         "icon": "city"
     },
     "ST.Tellus": {
@@ -86,7 +86,7 @@ const locations = {
         "lng": 121,
         "altitude": 0,
         "color": "#823ba8",
-        "size": 20,
+        "size": 26,
         "icon": "city"
     },
     "Tower1": {
