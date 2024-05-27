@@ -10,6 +10,7 @@ import InfoBox from './InfoBox';
 import hexRgb from 'hex-rgb';
 import { ringsData } from '../data/hercyniaData';
 import { getIcon } from '../data/getIcon';
+import { labels } from '../data/labels';
 
 const zoomMod = 0.03;
 
@@ -83,6 +84,15 @@ const globeImage = isWinterSeason ? imageWinter : isMountainFall ? imageDefault 
             arcDashLength='dash'
             arcAltitudeAutoScale='scale'
             arcDashAnimateTime='time'
+
+            labelsData={labels}
+            labelLat={d => d.latitude}
+            labelLng={d => d.longitude}
+            labelText={d => d.name}
+            labelSize={d => d.size}
+            labelColor={d => d.color}
+            labelResolution={2}
+            labelDotRadius={0}
         />
     </div>
       <InfoBox setDisplayData={setDisplayData} displayData={displayData} {...displayData} />
