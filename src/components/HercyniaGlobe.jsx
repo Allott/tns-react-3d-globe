@@ -85,9 +85,7 @@ const globeImage = isWinterSeason ? imageWinter : isMountainFall ? imageDefault 
             arcDashAnimateTime='time'
         />
     </div>
-    {displayData && (
-        <InfoBox setDisplayData={setDisplayData} {...displayData} />
-    )}
+      <InfoBox setDisplayData={setDisplayData} displayData={displayData} {...displayData} />
     </div>
   );
 };
