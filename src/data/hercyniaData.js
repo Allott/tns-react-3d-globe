@@ -33,7 +33,19 @@ const locations = {
         "altitude": 0.001,
         "color": "#47a9ff",
         "size": 16,
-        "icon": "city"
+        "icon": "city",
+        "content": [
+          {
+            "text": "Reduced to a rubbled battlefield. Salvage is still available, but between flooding and paracausal anomalies poses significant risk. The city is a shadow of its former self.",
+            class: 'text-red-600 mb-2'
+          },
+          {
+            "text": "Landmark Colonial’s foothold on Hercynia, a flagship colony meant to demonstrate the company’s aptitude and expertise in colonizing hostile or less-than-ideal worlds.",
+          },
+          {
+            "text": "Evergreen is a city brutalized by growth. The tall apartment blocks stand a dozen stories high, grime-streaked white monoliths wrapped in cling-tight plastic, looming above the low, mixed material buildings.",
+          },
+        ]
     },
     "Merricktown": {
         "name": "Merricktown",

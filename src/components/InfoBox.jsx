@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion"
 
-const InfoBox = ({ name, setDisplayData, displayData }) => {
+const InfoBox = ({ name, content, setDisplayData, displayData }) => {
 return (
     <AnimatePresence>
         {displayData && (
@@ -14,6 +14,13 @@ return (
                 <div className="flex flex-row  sm:rounded-tl-lg justify-between bg-gray-600 text-lg items-center">
                     <h1 className="mx-2">{'>> ' + name}</h1>
                     <button className='p-2 px-4 hover:text-red-600' onClick={() => setDisplayData(null)}>X</button>
+                </div>
+                <div className="overflow-scroll m-4 h-full">
+                    {content?.map((item, index) => (
+                        <p key={index} className={item?.class ? item?.class : 'text-white pb-2'}>
+                            {item?.text}
+                        </p>
+                    ))}
                 </div>
             </motion.div>
         )}
