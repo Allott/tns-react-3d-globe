@@ -11,16 +11,17 @@ import hexRgb from 'hex-rgb';
 import { ringsData } from '../data/hercyniaData';
 import { getIcon } from '../data/getIcon';
 import { labels } from '../data/labels';
+import YearBox from './YearBox';
 
 const zoomMod = 0.03;
 
 const HercyniaGlobe = ({
     locationsData = [],
     arcsData = [],
-    isMonsoonSeason = false,
     isWinterSeason = false,
     isMountainFall = true,
-    startLocation
+    startLocation,
+    yearText
 }) => {
 const [displayData, setDisplayData] = useState();
 const globeRef = useRef(null);
@@ -95,6 +96,7 @@ const globeImage = isWinterSeason ? imageWinter : isMountainFall ? imageDefault 
             labelDotRadius={0}
         />
     </div>
+      <YearBox text={yearText} />
       <InfoBox setDisplayData={setDisplayData} displayData={displayData} {...displayData} />
     </div>
   );

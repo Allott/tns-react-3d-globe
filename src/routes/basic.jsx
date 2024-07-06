@@ -12,8 +12,9 @@ const Page = () => {
         locationsData={places}
         arcsData={arcs}
         startLocation={locations.Evergreen}
-        isWinterSeason={false}
+        isWinterSeason={true}
         isMountainFall={true}
+        yearText={'HERCYNIA - 5015u - Early Winter'}
       />
     </div>
   );
