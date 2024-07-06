@@ -57,7 +57,7 @@ const locations = {
             "text": "Several enclaves have formed, Including a new Grey-town, a small enclave of Landmark Colonial, and communities from Hivehome",
           },
           {
-            "text": "The majority of the city is above ground, but a central but some core infrastructure is deep underground",
+            "text": "The majority of the city is above ground, but some core infrastructure is deep underground",
           },
           {
             "text": "Food is not a problem in the short term, Mycol Fields is home to tunnels of mushrooms, a large lake, and a well managed system of agricultural cisterns.",
