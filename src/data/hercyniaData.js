@@ -123,51 +123,68 @@ const locations = {
           },
         ]
     },
-    "BellaCosta": {
-        "name": "Bella Costa",
-        "lat": 17,
-        "lng": 56,
-        "altitude": 0,
-        "color": "#05ffb4",
-        "size": 26,
-        "icon": "city",
-        "content": [
-          {
-            "text": "Once, Bella Costa had been a quiet, pretty coastal city. Now it is a grey scar, most buildings reduced to rubble; those that stand have been converted to house Bicam officers, or converted to magazines and armories. The remains of the city are never quiet: hundreds of thousands of Bicam troops make camp, working in round-the-clock shifts to salvage and build landing ships.",
-          },
-        ]
-    },
-    "BemHonore": {
-        "name": "Bem Honore",
-        "lat": 33,
-        "lng": 107,
-        "altitude": 0,
-        "color": "#823ba8",
-        "size": 30,
-        "icon": "city",
-        "content": [
-          {
-            "text": "Bem Honore has been an established population center since 4530u. Home to thousands then, it is a sprawling city-state home. In that time it has grown from Scrap tyrants to kings to a citizens council.",
-          },
-        ]
-    },
-    "ST.Tellus": {
-        "name": "ST. Tellus",
-        "lat": -45,
-        "lng": 121,
-        "altitude": 0,
-        "color": "#823ba8",
-        "size": 26,
-        "icon": "city",
-        "content": [
-          {
-            "text": "The city, named after their founder, grew to spread out over some of the lakes, and is known among the Three Sisters for the beauty of its floating gardens, wooden cathedrals, and mosaics.",
-          },
-          {
-            "text": "The sapphire lakes of St. Tellus run brown with mud, pearlescent with oil slick and the industrial grime of a city converted to a war machine. The church’s white banners grow grey, snapping in the refinery wind. Rings of earthen bulwarks and star-fortresses defend the core of the city.",
-          },
-        ]
-    },
+    "EgregoreCross": {
+      "name": "Egregore Cross",
+      "lat": 13,
+      "lng": 6,
+      "altitude": 0,
+      "color": "#880808",
+      "size": 14,
+      "icon": "outpost",
+      "content": [
+        {
+          "text": "A network of surface and subterranean battlefields, the Egregore Cross is a vast, sprawling, and complex network of trenches, bunkers, and fortifications",
+        },
+        {
+          "text": "The HUC held back the machine here for over 50 years"
+        }
+      ]
+  },
+    // "BellaCosta": {
+    //     "name": "Bella Costa",
+    //     "lat": 17,
+    //     "lng": 56,
+    //     "altitude": 0,
+    //     "color": "#05ffb4",
+    //     "size": 26,
+    //     "icon": "city",
+    //     "content": [
+    //       {
+    //         "text": "Once, Bella Costa had been a quiet, pretty coastal city. Now it is a grey scar, most buildings reduced to rubble; those that stand have been converted to house Bicam officers, or converted to magazines and armories. The remains of the city are never quiet: hundreds of thousands of Bicam troops make camp, working in round-the-clock shifts to salvage and build landing ships.",
+    //       },
+    //     ]
+    // },
+    // "BemHonore": {
+    //     "name": "Bem Honore",
+    //     "lat": 33,
+    //     "lng": 107,
+    //     "altitude": 0,
+    //     "color": "#823ba8",
+    //     "size": 30,
+    //     "icon": "city",
+    //     "content": [
+    //       {
+    //         "text": "Bem Honore has been an established population center since 4530u. Home to thousands then, it is a sprawling city-state home. In that time it has grown from Scrap tyrants to kings to a citizens council.",
+    //       },
+    //     ]
+    // },
+    // "ST.Tellus": {
+    //     "name": "ST. Tellus",
+    //     "lat": -45,
+    //     "lng": 121,
+    //     "altitude": 0,
+    //     "color": "#823ba8",
+    //     "size": 26,
+    //     "icon": "city",
+    //     "content": [
+    //       {
+    //         "text": "The city, named after their founder, grew to spread out over some of the lakes, and is known among the Three Sisters for the beauty of its floating gardens, wooden cathedrals, and mosaics.",
+    //       },
+    //       {
+    //         "text": "The sapphire lakes of St. Tellus run brown with mud, pearlescent with oil slick and the industrial grime of a city converted to a war machine. The church’s white banners grow grey, snapping in the refinery wind. Rings of earthen bulwarks and star-fortresses defend the core of the city.",
+    //       },
+    //     ]
+    // },
     "Tower1": {
         "name": "Tower 1",
         "lat": 28,
@@ -210,6 +227,90 @@ const locations = {
           },
         ]
     },
+    "PS1": {
+      "name": "Patience Snapshot",
+      "lat": -2,
+      "lng": -50,
+      "altitude": 0,
+      "color": "#570057",
+      "size": 14,
+      "icon": "info",
+      "content": [
+        {
+          "text": "Evidence of old Egregorian ruins, long overgrown by the encroaching jungle.",
+        },
+      ]
+  },
+  "PS2": {
+      "name": "Patience Snapshot",
+      "lat": -19,
+      "lng": 52,
+      "altitude": 0,
+      "color": "#570057",
+      "size": 14,
+      "icon": "info",
+      "content": [
+        {
+          "text": "Ancient Egregorian missile silos, their blast doors open, with water and vines hanging into their black depths.",
+        },
+      ]
+  },
+  "PS3": {
+    "name": "Patience Snapshot",
+    "lat": -45,
+    "lng": 121,
+    "altitude": 0,
+    "color": "#570057",
+    "size": 14,
+    "icon": "info",
+    "content": [
+      {
+        "text": "A cityscape, filling the image from its western edge to the east.",
+      },
+    ]
+  },
+  "PS4": {
+    "name": "Patience Snapshot",
+    "lat": 55,
+    "lng": -30,
+    "altitude": 0,
+    "color": "#570057",
+    "size": 14,
+    "icon": "info",
+    "content": [
+      {
+        "text": "A blank square in the northern hemisphere, the image glitched by an old Union military scrambler",
+      },
+    ]
+  },
+  "PS5": {
+    "name": "Patience Snapshot",
+    "lat": 30,
+    "lng": -60,
+    "altitude": 0,
+    "color": "#570057",
+    "size": 14,
+    "icon": "info",
+    "content": [
+      {
+        "text": "Plains, dotted with the kettle lakes left behind by orbital bombardment.",
+      },
+    ]
+  },
+  "PS6": {
+    "name": "Patience Snapshot",
+    "lat": 16,
+    "lng": 131,
+    "altitude": 0,
+    "color": "#570057",
+    "size": 14,
+    "icon": "info",
+    "content": [
+      {
+        "text": "The scattered, rusted remains of an old Union staging area; the rotted metal hulks of thousands of tanks arranged in neat, decaying rows.",
+      },
+    ]
+  },
 }
 
 const ringsData = [
