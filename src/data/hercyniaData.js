@@ -45,8 +45,26 @@ const locations = {
         "icon": "city",
         "content": [
           {
-            "text": "Tucked into the base of a wide valley",
+            "text": "Tucked into the base of a wide valley the city struggle to support the population of refugees from the surrounding cities. A city of 200,000 swollen to 2 million.",
           },
+          {
+            "text": "Built into a converted hive hall, the city center is made for Egregorians and converted for human use.",
+          },
+          {
+            "text": "As your reach the city's limits the buildings become more and more makeshift and human, with the outermost buildings being little more than tents and lean-tos.",
+          },
+          {
+            "text": "Several enclaves have formed, Including a new Grey-town, a small enclave of Landmark Colonial, and communities from Hivehome",
+          },
+          {
+            "text": "The majority of the city is above ground, but a central but some core infrastructure is deep underground",
+          },
+          {
+            "text": "Food is not a problem in the short term, Mycol Fields is home to tunnels of mushrooms, a large lake, and a well managed system of agricultural cisterns.",
+          },
+          {
+            "text": "Electricity and fabricated good however an a major issue, as is shelter and sanitation.",
+          }
         ]
     },
     "Evergreen": {
