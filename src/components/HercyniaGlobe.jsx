@@ -26,6 +26,7 @@ const HercyniaGlobe = ({
 const [displayData, setDisplayData] = useState();
 const globeRef = useRef(null);
 
+
 const goTo = (place, ms=1000) => {
     globeRef.current.pointOfView({
     ...place,
@@ -40,8 +41,6 @@ const globeImage = isWinterSeason ? imageWinter : isMountainFall ? imageDefault 
       goTo(startLocation, 4000);
     }
   };
-
-
 
   return (
     <div >

@@ -1,5 +1,5 @@
 const locations = {
-    "Daylight": {
+    "daylight": {
         "name": "Daylight",
         "lat": 33.5,
         "lng": -1.75,
@@ -14,7 +14,7 @@ const locations = {
           },
         ]
     },
-    "Hivehome": {
+    "hivehome": {
         "name": "Hivehome",
         "lat": 32.5,
         "lng": -13,
@@ -35,7 +35,7 @@ const locations = {
           },
         ]
     },
-    "MycolFields": {
+    "mycol_fields": {
         "name": "Mycol Fields",
         "lat": 22,
         "lng": -14,
@@ -67,7 +67,7 @@ const locations = {
           }
         ]
     },
-    "Evergreen": {
+    "evergreen": {
         "name": "Evergreen",
         "lat": 29,
         "lng": -4,
@@ -88,7 +88,7 @@ const locations = {
           },
         ]
     },
-    "Merricktown": {
+    "merrick_town": {
         "name": "Merricktown",
         "lat": 28.2,
         "lng": -2,
@@ -106,7 +106,7 @@ const locations = {
           },
         ]
     },
-    "LiuMaize": {
+    "liu_maize": {
         "name": "Liu Maize",
         "lat": 27,
         "lng": -2.5,
@@ -124,7 +124,7 @@ const locations = {
           },
         ]
     },
-    "Laguna": {
+    "laguna": {
         "name": "Laguna",
         "lat": 1,
         "lng": 35,
@@ -141,7 +141,7 @@ const locations = {
           },
         ]
     },
-    "EgregoreCross": {
+    "egregore_cross": {
       "name": "Egregore Cross",
       "lat": 13,
       "lng": 6,
@@ -158,7 +158,7 @@ const locations = {
         }
       ]
   },
-    // "BellaCosta": {
+    // "bella_costa": {
     //     "name": "Bella Costa",
     //     "lat": 17,
     //     "lng": 56,
@@ -172,7 +172,7 @@ const locations = {
     //       },
     //     ]
     // },
-    // "BemHonore": {
+    // "bem_honore": {
     //     "name": "Bem Honore",
     //     "lat": 33,
     //     "lng": 107,
@@ -186,7 +186,7 @@ const locations = {
     //       },
     //     ]
     // },
-    // "ST.Tellus": {
+    // "st_tellus": {
     //     "name": "ST. Tellus",
     //     "lat": -45,
     //     "lng": 121,
@@ -203,7 +203,7 @@ const locations = {
     //       },
     //     ]
     // },
-    "Tower1": {
+    "tower1": {
         "name": "Tower 1",
         "lat": 28,
         "lng": -3.6,
@@ -217,7 +217,7 @@ const locations = {
           },
         ]
     },
-    "Tower2": {
+    "tower2": {
         "name": "Tower 2",
         "lat": 31,
         "lng": -5,
@@ -231,7 +231,7 @@ const locations = {
           },
         ]
     },
-    "Tower3": {
+    "tower3": {
         "name": "Tower 3",
         "lat": 28.7,
         "lng": 1.5,
@@ -245,7 +245,7 @@ const locations = {
           },
         ]
     },
-    "PS1": {
+    "ps1": {
       "name": "Patience Snapshot",
       "lat": -2,
       "lng": -50,
@@ -259,7 +259,7 @@ const locations = {
         },
       ]
   },
-  "PS2": {
+  "ps2": {
       "name": "Patience Snapshot",
       "lat": -19,
       "lng": 52,
@@ -273,7 +273,7 @@ const locations = {
         },
       ]
   },
-  "PS3": {
+  "ps3": {
     "name": "Patience Snapshot",
     "lat": -45,
     "lng": 121,
@@ -287,7 +287,7 @@ const locations = {
       },
     ]
   },
-  "PS4": {
+  "ps4": {
     "name": "Patience Snapshot",
     "lat": 55,
     "lng": -30,
@@ -301,7 +301,7 @@ const locations = {
       },
     ]
   },
-  "PS5": {
+  "ps5": {
     "name": "Patience Snapshot",
     "lat": 30,
     "lng": -60,
@@ -315,7 +315,7 @@ const locations = {
       },
     ]
   },
-  "PS6": {
+  "ps6": {
     "name": "Patience Snapshot",
     "lat": 16,
     "lng": 131,
