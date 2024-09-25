@@ -124,6 +124,20 @@ const locations = {
           },
         ]
     },
+    "ssc_landing_site": {
+        "name": "SSC Landing Site",
+        "lat": 2.3,
+        "lng":-32.3,
+        "altitude": 0,
+        "color": "#575757",
+        "size": 12,
+        "icon": "town",
+        "content": [
+          {
+            "text": "Fighting took place here, a lot of effort has been put into covering up any evidence",
+          },
+        ]
+    },
     "laguna": {
         "name": "Laguna",
         "lat": 1,
@@ -186,23 +200,26 @@ const locations = {
     //       },
     //     ]
     // },
-    // "st_tellus": {
-    //     "name": "ST. Tellus",
-    //     "lat": -45,
-    //     "lng": 121,
-    //     "altitude": 0,
-    //     "color": "#823ba8",
-    //     "size": 26,
-    //     "icon": "city",
-    //     "content": [
-    //       {
-    //         "text": "The city, named after their founder, grew to spread out over some of the lakes, and is known among the Three Sisters for the beauty of its floating gardens, wooden cathedrals, and mosaics.",
-    //       },
-    //       {
-    //         "text": "The sapphire lakes of St. Tellus run brown with mud, pearlescent with oil slick and the industrial grime of a city converted to a war machine. The church’s white banners grow grey, snapping in the refinery wind. Rings of earthen bulwarks and star-fortresses defend the core of the city.",
-    //       },
-    //     ]
-    // },
+    "st_tellus": {
+        "name": "ST. Tellus",
+        "lat": -45,
+        "lng": 121,
+        "altitude": 0,
+        "color": "#823ba8",
+        "size": 26,
+        "icon": "city",
+        "content": [
+          {
+            text: "Patience Snapshot: A cityscape, filling the image from its western edge to the east."
+          }
+          // {
+          //   "text": "The city, named after their founder, grew to spread out over some of the lakes, and is known among the Three Sisters for the beauty of its floating gardens, wooden cathedrals, and mosaics.",
+          // },
+          // {
+          //   "text": "The sapphire lakes of St. Tellus run brown with mud, pearlescent with oil slick and the industrial grime of a city converted to a war machine. The church’s white banners grow grey, snapping in the refinery wind. Rings of earthen bulwarks and star-fortresses defend the core of the city.",
+          // },
+        ]
+    },
     "tower1": {
         "name": "Tower 1",
         "lat": 28,
@@ -272,20 +289,6 @@ const locations = {
           "text": "Ancient Egregorian missile silos, their blast doors open, with water and vines hanging into their black depths.",
         },
       ]
-  },
-  "ps3": {
-    "name": "Patience Snapshot",
-    "lat": -45,
-    "lng": 121,
-    "altitude": 0,
-    "color": "#570057",
-    "size": 14,
-    "icon": "info",
-    "content": [
-      {
-        "text": "A cityscape, filling the image from its western edge to the east.",
-      },
-    ]
   },
   "ps4": {
     "name": "Patience Snapshot",
