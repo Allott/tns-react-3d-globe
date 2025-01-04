@@ -45,9 +45,9 @@ const Page = () => {
         locationsData={places}
         arcsData={arcs}
         startLocation={focusLocation || locations.hivehome}
-        isWinterSeason={true}
+        isWinterSeason={false}
         isMountainFall={true}
-        yearText={'HERCYNIA - 5015u - Winter'}
+        yearText={'HERCYNIA - 5015u - Spring'}
       />
     </div>
   );

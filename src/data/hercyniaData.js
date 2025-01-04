@@ -35,6 +35,20 @@ const locations = {
           },
         ]
     },
+    "union": {
+      "name": "Union Landing Zone",
+      "lat": 28,
+      "lng": -23,
+      "altitude": 0,
+      "color": "#991e2a",
+      "size": 24,
+      "icon": "satelite",
+      "content": [
+        {
+          "text": "In geosynchronous orbit over the planet, UTC-CL-05 “Ceremony” has established an elevator zone for the quick transport and logistics purposes.",
+        },
+      ]
+  },
     "mycol_fields": {
         "name": "Mycol Fields",
         "lat": 22,
@@ -172,34 +186,34 @@ const locations = {
         }
       ]
   },
-    // "bella_costa": {
-    //     "name": "Bella Costa",
-    //     "lat": 17,
-    //     "lng": 56,
-    //     "altitude": 0,
-    //     "color": "#05ffb4",
-    //     "size": 26,
-    //     "icon": "city",
-    //     "content": [
-    //       {
-    //         "text": "Once, Bella Costa had been a quiet, pretty coastal city. Now it is a grey scar, most buildings reduced to rubble; those that stand have been converted to house Bicam officers, or converted to magazines and armories. The remains of the city are never quiet: hundreds of thousands of Bicam troops make camp, working in round-the-clock shifts to salvage and build landing ships.",
-    //       },
-    //     ]
-    // },
-    // "bem_honore": {
-    //     "name": "Bem Honore",
-    //     "lat": 33,
-    //     "lng": 107,
-    //     "altitude": 0,
-    //     "color": "#823ba8",
-    //     "size": 30,
-    //     "icon": "city",
-    //     "content": [
-    //       {
-    //         "text": "Bem Honore has been an established population center since 4530u. Home to thousands then, it is a sprawling city-state home. In that time it has grown from Scrap tyrants to kings to a citizens council.",
-    //       },
-    //     ]
-    // },
+    "bella_costa": {
+        "name": "Bella Costa",
+        "lat": 17,
+        "lng": 56,
+        "altitude": 0,
+        "color": "#05ffb4",
+        "size": 26,
+        "icon": "city",
+        "content": [
+          {
+            "text": "Once, Bella Costa had been a quiet, pretty coastal city. Now it is a grey scar, most buildings reduced to rubble; those that stand have been converted to house Bicam officers, or converted to magazines and armories. The remains of the city are never quiet: hundreds of thousands of Bicam troops make camp, working in round-the-clock shifts to salvage and build landing ships.",
+          },
+        ]
+    },
+    "bem_honore": {
+        "name": "Bem Honore",
+        "lat": 33,
+        "lng": 107,
+        "altitude": 0,
+        "color": "#823ba8",
+        "size": 30,
+        "icon": "city",
+        "content": [
+          {
+            "text": "Bem Honore has been an established population center since 4530u. Home to thousands then, it is a sprawling city-state home. In that time it has grown from Scrap tyrants to kings to a citizens council.",
+          },
+        ]
+    },
     "st_tellus": {
         "name": "ST. Tellus",
         "lat": -45,
